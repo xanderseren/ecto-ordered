@@ -44,7 +44,7 @@ defmodule EctoOrdered.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-     {:ecto, "~> 2.0"},
+     {:ecto, "~> 3.7"},
      {:postgrex, "~> 0.11.0", only: :test},
      {:credo, "~> 0.3", only: [:dev, :test]},
      {:ex_doc, "~> 0.11.4", only: :dev},
